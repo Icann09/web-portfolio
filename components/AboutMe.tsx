@@ -19,7 +19,7 @@ export default function AboutMe() {
               alt="Profile picture"
               fill
               className="object-cover"
-              unoptimized
+              
             />
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function AboutMe() {
                 key={index}
                 className="p-2 border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300"
               >
-                <Image src={icon} alt="Tool" width={32} height={32} unoptimized/>
+                <Image src={icon} alt="Tool" width={32} height={32} />
               </div>
             ))}
           </div>

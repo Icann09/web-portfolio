@@ -27,7 +27,7 @@ export default function MyLatestWork() {
                 width={400}
                 height={224}
                 className="w-full h-56 object-cover"
-                unoptimized
+                
               />
               <div className="absolute bottom-4 left-4 right-4 bg-white rounded-md flex justify-between items-center px-4 py-3 shadow-lg">
                 <div>

@@ -10,7 +10,6 @@ export default function Home() {
           width={140}
           height={140}
           className="rounded-full mb-10 w-28 h-28 sm:w-[140px] sm:h-[140px]  lg:w-[180px] lg:h-[180px] object-cover"
-          unoptimized
         />
         <p className="text-lg text-gray-700">
           Hi! I’m <span className="font-semibold">Muhammad Kaisan</span> 👋
