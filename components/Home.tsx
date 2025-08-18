@@ -21,9 +21,14 @@ export default function Home() {
           I’m a full-stack web developer from Makassar, Indonesia, passionate about building modern, responsive, and user-friendly applications. 
         </p>
         <div className="flex gap-4 mt-3 md:mt-1">
-          <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-900 transition">
-            connect with me →
-          </button>
+          <a
+            href="https://www.linkedin.com/in/muhammad-kaisan-35a103211"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-900 transition inline-block"
+          >
+            Connect with me
+          </a>
           <button className="border border-gray-400 px-6 py-3 rounded-full hover:bg-gray-100 transition flex items-center gap-2 text-black cursor-pointer">
             <a
               href="/resume.pdf"
