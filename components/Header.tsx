@@ -53,9 +53,14 @@ export default function Header() {
             </li>
           ))}
         </ul>
-        <button className="border text-sm lg:text-lg border-gray-400 rounded-full px-4 py-2 text-black hover:bg-gray-100 transition-colors">
-          <a href="#connect">Connect ↗</a>
-        </button>
+        <a
+          href="https://www.linkedin.com/in/muhammad-kaisan-35a103211"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border text-sm lg:text-lg border-gray-400 rounded-full px-4 py-2 text-black hover:bg-gray-100 transition-colors inline-block"
+        >
+          Connect ↗
+        </a>
       </nav>
     </header>
   );
