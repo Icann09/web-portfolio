@@ -46,9 +46,14 @@ export default function MobileNavigation() {
           </nav>
           <Separator className="my-5 bg-black"/>
           <div className="flex flex-col items-center">
-            <Button className="rounded-full px-14" onClick={() => {}}>
-              <p>Connect ↗</p>
-            </Button>
+            <a
+              href="https://www.linkedin.com/in/muhammad-kaisan-35a103211"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full px-8 py-2 bg-black text-white"
+            >
+              Connect ↗
+            </a>
           </div>
         </SheetContent>
       </Sheet>
