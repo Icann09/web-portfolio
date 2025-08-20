@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { navItems } from "@/constants";
+import { Linkedin } from "lucide-react";
+
 
 export default function Header() {
   const [activeId, setActiveId] = useState("");
@@ -57,9 +59,9 @@ export default function Header() {
           href="https://www.linkedin.com/in/muhammad-kaisan-35a103211"
           target="_blank"
           rel="noopener noreferrer"
-          className="border text-sm lg:text-lg border-gray-400 rounded-full px-4 py-2 text-black hover:bg-gray-100 transition-colors inline-block"
+          className="cursor-pointer rounded-full border border-black p-2"
         >
-          Connect ↗
+          <Linkedin />
         </a>
       </nav>
     </header>
