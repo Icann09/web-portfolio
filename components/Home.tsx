@@ -5,7 +5,7 @@ export default function Home() {
     <section id="home" className="relative min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center text-center  px-6">
       <div className="flex flex-col items-center justify-center">
         <Image
-          src="/profile-1.jpeg" // Replace with your profile image path
+          src="/assets/images/profile.jpeg" // Replace with your profile image path
           alt="Profile"
           width={140}
           height={140}
@@ -22,7 +22,7 @@ export default function Home() {
         </p>
         <div className="flex gap-4 mt-3 md:mt-1">
           <a
-            href="https://www.linkedin.com/in/muhammad-kaisan-35a103211"
+            href="http://github.com/Icann09"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-900 transition inline-block"

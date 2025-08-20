@@ -9,9 +9,42 @@ const poppins = Poppins ({
 });
 
 export const metadata: Metadata = {
-  title: "Stor It",
-  description: "Store It - The only storage solution you need",
+  metadataBase: new URL("https://web-portfolio-five-inky.vercel.app"),
+  title: "Muhammad Kaisan Farasdag | Front-End Developer Portfolio",
+  description:
+    "Portfolio of Muhammad Kaisan Farasdag, a front-end developer specializing in React, Next.js, and TypeScript. Explore projects, case studies, and contact details.",
+  keywords: [
+    "Muhammad Kaisan Farasdag",
+    "Front-End Developer",
+    "React Developer",
+    "Next.js Portfolio",
+    "TypeScript",
+    "Web Developer",
+    "Indonesia Developer",
+    "Full-Stack Developer",
+    "Supabase",
+    "Tailwind CSS",
+  ],
+  authors: [{ name: "Muhammad Kaisan Farasdag" }],
+  openGraph: {
+    title: "Muhammad Kaisan Farasdag | Front-End Developer",
+    description:
+      "Explore my portfolio showcasing React, Next.js, and full-stack projects.",
+    url: "https://web-portfolio-five-inky.vercel.app",
+    siteName: "Kaisan Portfolio",
+    images: [
+      {
+        url: "/web-page.png",
+        width: 1200,
+        height: 630,
+        alt: "Kaisan Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
+
 
 export default function RootLayout({
   children,
