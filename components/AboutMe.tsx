@@ -66,8 +66,8 @@ export default function AboutMe() {
             {[
               "/assets/icons/better-auth.png",
               "/assets/icons/clerk.svg",
-              "/assets/icons/vscode.png",
-              "/assets/icons/github.svg",
+              "/assets/icons/vscode.svg",
+              "/assets/icons/github.svg", 
               "/assets/icons/imagekit.svg",
               "/assets/icons/neon.svg",
               "/assets/icons/nextjs.png",
