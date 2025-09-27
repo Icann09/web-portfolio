@@ -3,7 +3,7 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import config from "@/lib/config";
 
-export default function Testimonials() {
+export default function GetConnect() {
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState("");
 
@@ -35,7 +35,7 @@ export default function Testimonials() {
   return (
     <section
       className="min-h-[calc(100vh-4rem)] mt-16 md:mt-2 flex flex-col items-center justify-center px-4 bg-gradient-to-b from-white to-transparent"
-      id="testimonials"
+      id="getconnect"
     >
       {/* Heading */}
       <p className="text-gray-600 text-sm mb-2">Connect with me</p>

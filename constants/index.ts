@@ -16,8 +16,8 @@ export const navItems = [
     id: "my-work",
   },
   {
-    name: "Testimonials",
-    id: "testimonials",
+    name: "Get Connect",
+    id: "getconnect",
   },
 ];
 

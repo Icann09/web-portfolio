@@ -37,7 +37,7 @@ export default function AboutMe() {
               <Code className="w-6 h-6 text-gray-800 mb-2" />
               <h3 className="font-semibold text-gray-900">Languages</h3>
               <p className="text-sm text-gray-600">
-                HTML, CSS, JavaScript, React Js, Next Js
+                HTML, CSS, JavaScript, TypeScript
               </p>
             </div>
 
@@ -64,10 +64,19 @@ export default function AboutMe() {
           <p className="text-gray-700 mb-3">Tools I use</p>
           <div className="flex gap-3 flex-wrap">
             {[
+              "/assets/icons/better-auth.png",
+              "/assets/icons/clerk.svg",
               "/assets/icons/vscode.png",
-              "/assets/icons/firebase.png",
-              "/assets/icons/mongodb.png",
-              "/assets/icons/figma.png",
+              "/assets/icons/github.svg",
+              "/assets/icons/imagekit.svg",
+              "/assets/icons/neon.svg",
+              "/assets/icons/nextjs.png",
+              "/assets/icons/postgresql.svg",
+              "/assets/icons/reactjs.svg",
+              "/assets/icons/supabase.png",
+              "/assets/icons/tailwindcss.svg",
+              "/assets/icons/upstash.png",
+              "/assets/icons/vercel.svg",
               "/assets/icons/git.png",
             ].map((icon, index) => (
               <div

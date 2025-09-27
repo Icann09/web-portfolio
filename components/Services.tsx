@@ -32,8 +32,7 @@ export default function Services() {
       <p className="text-gray-500 mb-2">What i offers</p>
       <h2 className="text-3xl font-bold mb-4">My services</h2>
       <p className="text-gray-600 max-w-2xl mx-auto mb-12">
-        I am a frontend developer from California, USA with 10 years of
-        experience in multiple companies like Microsoft, Tesla and Apple.
+        I am a frontend developer based in Makassar, Indonesia. Although I don’t have formal work experience yet, the services showcased here are sample services created to demonstrate UI design of my website portfolio.
       </p>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

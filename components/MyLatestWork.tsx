@@ -13,8 +13,7 @@ export default function MyLatestWork() {
         <h3 className="text-lg font-medium text-gray-500 ">My portfolio</h3>
         <h2 className="text-4xl font-bold text-gray-900 my-3">My latest work</h2>
         <p className="text-gray-600 my-7">
-          Welcome to my web development portfolio! Explore a collection of projects showcasing
-          my expertise in front-end development.
+          Welcome to my web development portfolio! Here, you’ll find a collection of projects that highlight my skills in front-end development and seamless backend integration.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
