@@ -32,11 +32,11 @@ export const projects = [
     image: "/assets/images/store-it.png",
     url: "https://store-it-gamma-taupe.vercel.app"
   },
-  {
-    name: "Dashboard-Nextjs",
-    image: "/assets/images/dashboard-nextjs.png",
-    url: "https://dashboard-next-js-ashen-eight.vercel.app"
-  },
+  // {
+  //   name: "Dashboard-Nextjs",
+  //   image: "/assets/images/dashboard-nextjs.png",
+  //   url: "https://dashboard-next-js-ashen-eight.vercel.app"
+  // },
   {
     name: "LMS",
     image: "/assets/images/lms-app.png",
