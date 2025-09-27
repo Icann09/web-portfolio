@@ -16,7 +16,7 @@ export default function MyLatestWork() {
           Welcome to my web development portfolio! Here, you’ll find a collection of projects that highlight my skills in front-end development and seamless backend integration.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+      <div className="flex justify-center gap-6 max-w-6xl mx-auto flex-col md:flex-row">
         {projects.map((project, idx) => (
           <div key={idx} className="rounded-lg overflow-hidden shadow-sm px-3">
             <div className="relative group">
