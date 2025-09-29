@@ -10,7 +10,7 @@ export default function MyLatestWork() {
   return (
     <section className="min-h-[calc(100vh-4rem)] flex-col flex justify-center" id="my-work">
       <div className="text-center max-w-3xl mx-auto mb-12">
-        <h3 className="text-lg font-medium text-gray-500 ">My portfolio</h3>
+        <p className="text-gray-500 mb-2">My Portfolio</p>
         <h2 className="text-4xl font-bold text-gray-900 my-3">My latest work</h2>
         <p className="text-gray-600 my-7">
           Welcome to my web development portfolio! Here, you’ll find a collection of projects that highlight my skills in front-end development and seamless backend integration.
@@ -42,8 +42,20 @@ export default function MyLatestWork() {
                 </div>
               </div>
             </div>
+            <div className="hidden md:flex flex-col">
+              <h3 className="font-semibold mb-2">Tech Stack</h3>
+              <ul className="list-disc list-inside space-y-1">
+                {project.techStack.map((tech, idx) => (
+                  <li key={idx}>{tech}</li>
+                ))}
+              </ul>
+            </div>
           </div>
         ))}
+      </div>
+      <div>
+      <div className="">
+      </div>
       </div>
       <div className="text-center  mt-6 md:mt-16  mb-1 md:mb-10 lg:mb-12 ">
         <button className="px-6 py-3 rounded-full border border-gray-300 hover:border-gray-500 text-gray-700 hover:text-gray-900 transition cursor-pointer">

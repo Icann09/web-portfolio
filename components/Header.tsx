@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { navItems } from "@/constants";
-import { Linkedin } from "lucide-react";
+import { Linkedin, GithubIcon } from "lucide-react";
 
 
 export default function Header() {
@@ -55,14 +55,26 @@ export default function Header() {
             </li>
           ))}
         </ul>
-        <a
-          href="https://www.linkedin.com/in/muhammad-kaisan-35a103211"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cursor-pointer rounded-full border border-black p-2"
-        >
-          <Linkedin />
-        </a>
+        <div className="flex gap-2">
+          <a
+            href="https://www.linkedin.com/in/muhammad-kaisan-35a103211"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer rounded-full border border-black p-2"
+          >
+            <Linkedin />
+
+          </a>
+          <a
+            href="https://www.github.com/Icann09"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer rounded-full border border-black p-2"
+          >
+            <GithubIcon />
+          </a>
+        </div>
+      
       </nav>
     </header>
   );
