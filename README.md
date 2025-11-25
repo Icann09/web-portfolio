@@ -24,10 +24,10 @@ Showcasing my projects, skills, career journey, and contact information — opti
 
 ## 🖼️ Pages Overview
 
-Home — Hero section, introduction, and call-to-action
-Projects — Interactive project cards with descriptions & links
-About — Skills, experience, tools & tech stack
-Contact — Direct links for email, GitHub, LinkedIn, etc.
+- Home — Hero section, introduction, and call-to-action
+- Projects — Interactive project cards with descriptions & links
+- About — Skills, experience, tools & tech stack
+- Contact — Direct links for email, GitHub, LinkedIn, etc.
 
 ## Getting Started
 
@@ -64,8 +64,8 @@ The portfolio is deployed using Vercel.
 ## 🙋‍♂️ Author
 
 Muhammad Kaisan Farasdag
-🌍 Makassar, Indonesia
-🔗 Portfolio: https://web-portfolio-five-inky.vercel.app
-🐙 GitHub: https://github.com/Icann09
-💼 LinkedIn: https://www.linkedin.com/in/muhammad-kaisan-35a103211
+- 🌍 Makassar, Indonesia
+- 🔗 Portfolio: https://web-portfolio-five-inky.vercel.app
+- 🐙 GitHub: https://github.com/Icann09
+- 💼 LinkedIn: https://www.linkedin.com/in/muhammad-kaisan-35a103211
 
