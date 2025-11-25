@@ -1,10 +1,10 @@
-#🌐 Personal Portfolio — Next.js 15
+# 🌐 Personal Portfolio — Next.js 15
 
 A modern, fast, and fully responsive developer portfolio built with Next.js 15, React, and Tailwind CSS.
 Showcasing my projects, skills, career journey, and contact information — optimized for performance and mobile-first design.
 
 
-##🚀 Tech Stack
+## 🚀 Tech Stack
 
 Next.js 15 (App Router)
 React 18
@@ -13,7 +13,7 @@ Tailwind CSS
 Vercel (Deployment)
 Resend (Email-sending service)
 
-##✨ Features
+## ✨ Features
 
 📱 Fully responsive design (mobile → desktop)
 ⚡ Optimized performance with Next.js 15
@@ -22,7 +22,7 @@ Resend (Email-sending service)
 🔗 Easy navigation + clean architecture
 📬 Contact form or links to email & social media
 
-##🖼️ Pages Overview
+## 🖼️ Pages Overview
 
 Home — Hero section, introduction, and call-to-action
 Projects — Interactive project cards with descriptions & links
@@ -50,7 +50,7 @@ npm run dev
 ```
 
 
-##📦 Build for Production
+## 📦 Build for Production
 ```bash
 npm run build
 npm run start
@@ -61,7 +61,7 @@ npm run start
 The portfolio is deployed using Vercel.
 
 
-##🙋‍♂️ Author
+## 🙋‍♂️ Author
 
 Muhammad Kaisan Farasdag
 🌍 Makassar, Indonesia
