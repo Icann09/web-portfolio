@@ -49,20 +49,19 @@ Start development server:
 npm run dev
 ```
 
-
 ## 📦 Build for Production
 ```bash
 npm run build
 npm run start
 ```
 
-🚀 Deployment
-
+## 🚀 Deployment
 The portfolio is deployed using Vercel.
 
+## 🔗 Demo
+https://web-portfolio-five-inky.vercel.app
 
 ## 🙋‍♂️ Author
-
 Muhammad Kaisan Farasdag
 - 🌍 Makassar, Indonesia
 - 🔗 Portfolio: https://web-portfolio-five-inky.vercel.app
