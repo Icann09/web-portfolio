@@ -6,19 +6,12 @@ Showcasing my projects, skills, career journey, and contact information — opti
 
 ## 🚀 Tech Stack
 
-- React 19
-- Next.js 15
-- Appwrite
-- TailwindCSS
-- ShadCN
+- Next.js 15 (App Router)
+- React 18
 - TypeScript
-
-Next.js 15 (App Router)
-React 18
-TypeScript
-Tailwind CSS
-Vercel (Deployment)
-Resend (Email-sending service)
+- Tailwind CSS
+- Vercel (Deployment)
+- Resend (Email-sending service)
 
 ## ✨ Features
 
