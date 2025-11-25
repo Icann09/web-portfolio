@@ -15,12 +15,12 @@ Showcasing my projects, skills, career journey, and contact information — opti
 
 ## ✨ Features
 
-📱 Fully responsive design (mobile → desktop)
-⚡ Optimized performance with Next.js 15
-🎨 Modern UI with Tailwind + custom components
-🗂️ Dedicated Projects, About, and Contact sections
-🔗 Easy navigation + clean architecture
-📬 Contact form or links to email & social media
+- 📱 Fully responsive design (mobile → desktop)
+- ⚡ Optimized performance with Next.js 15
+- 🎨 Modern UI with Tailwind + custom components
+- 🗂️ Dedicated Projects, About, and Contact sections
+- 🔗 Easy navigation + clean architecture
+- 📬 Contact form or links to email & social media
 
 ## 🖼️ Pages Overview
 
