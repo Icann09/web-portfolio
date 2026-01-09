@@ -147,7 +147,7 @@
 
   /* Mobile Navigation */
   .mobile-header {
-    @apply flex h-[60px] justify-between px-5 py-2 sm:hidden ;
+    @apply flex h-[60px] justify-between px-5 py-2 md:hidden ;
   }
   /* Header */
 }

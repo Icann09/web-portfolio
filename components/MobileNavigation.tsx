@@ -12,11 +12,24 @@ import { useState } from "react";
 import { navItems } from "@/constants";
 import { Separator } from "./ui/separator";
 import { cn } from "@/lib/utils";
-import { Button } from "./ui/button";
+import { useEffect } from "react";
 
 export default function MobileNavigation() {
   const [open, setOpen] = useState(false);
   const section = "home";
+
+  useEffect(() => {
+    const media = window.matchMedia("(min-width: 768px)");
+
+    const handler = () => {
+      if (media.matches) setOpen(false);
+    };
+
+    handler();
+    media.addEventListener("change", handler);
+    return () => media.removeEventListener("change", handler);
+  }, []);
+  
   return (
     <header className="mobile-header">
       <div className="text-2xl font-bold text-black">
@@ -26,7 +39,7 @@ export default function MobileNavigation() {
         <SheetTrigger>
           <Image src="/assets/icons/menu.svg" alt="menu" width={30} height={30}/>
         </SheetTrigger>
-        <SheetContent className="shad-sheet h-screen px-3">
+        <SheetContent className="shad-sheet h-screen px-3 md:hidden">
           <SheetTitle>
             <div className="text-2xl font-bold text-black pt-4">
               Kaisan<span className="text-pink-800">.</span>
