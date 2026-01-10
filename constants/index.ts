@@ -42,10 +42,10 @@ export const projects: Project[]  = [
     techStack: ["React", "Next.js", "TailwindCSS", "Radix UI", "Lucide Icons", "Sonner", "React Hook Form", "Zod", "Recharts", "Input-OTP", "Appwrite"], 
   },
   {
-    name: "Dashboard-Nextjs",
-    image: "/assets/images/dashboard-nextjs.png",
-    url: "https://dashboard-next-js-ashen-eight.vercel.app",
-    techStack: ["React", "Next.js", "TailwindCSS", "Heroicons", "PostgreSQL", "NextAuth", "bcrypt", "Zod"],
+    name: "E-commerce",
+    image: "/assets/images/e-commerce.webp",
+    url: "https://e-commerce-two-ashen-45.vercel.app",
+    techStack: ["React", "Next.js", "TailwindCSS", "PostgreSQL", "BetterAuth", "Zustand", "Zod", "Drizzle ORM", "Neon (Postgres)"],
   },
   {
     name: "LMS",
