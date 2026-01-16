@@ -149,5 +149,9 @@
   .mobile-header {
     @apply flex h-[60px] justify-between px-5 py-2 md:hidden ;
   }
+
+  .shad-active {
+    @apply text-black font-semibold bg-amber-200 ;
+  }
   /* Header */
 }

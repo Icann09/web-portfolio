@@ -16,7 +16,11 @@ import { useEffect } from "react";
 
 export default function MobileNavigation() {
   const [open, setOpen] = useState(false);
-  const section = "home";
+  const [activeId, setActiveId] = useState("");
+
+
+
+
 
   useEffect(() => {
     const media = window.matchMedia("(min-width: 768px)");
@@ -29,7 +33,29 @@ export default function MobileNavigation() {
     media.addEventListener("change", handler);
     return () => media.removeEventListener("change", handler);
   }, []);
-  
+
+  useEffect(() => {
+    const sections = document.querySelectorAll<HTMLElement>("section[id]");
+    if (sections.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveId(entry.target.id);
+          }
+        });
+      },
+      {
+        threshold: 0.5, // ✅ 50% section visible
+      }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <header className="mobile-header">
       <div className="text-2xl font-bold text-black">
@@ -49,11 +75,22 @@ export default function MobileNavigation() {
           <nav className="">
             <ul className="flex flex-col gap-4">
               {navItems.map(({ name, id }) => (
-                <Link key={name} href={`#${id}`} className="lg:w-full">
-                  <li className={cn("mobile-nav-item", section === id && "shad-active")}>
-                    <p>{name}</p>
-                  </li>
-                </Link>
+                <li key={id}>
+                  <Link
+                    href={`#${id}`}
+                    className={cn(
+                      "mobile-nav-item",
+                      activeId === id && "shad-active"
+                    )}
+                    onClick={() =>  {
+                      setOpen(false);
+                      setActiveId(id)
+                      }
+                    }
+                  >
+                    <span>{name}</span>
+                  </Link>
+                </li>
               ))}
             </ul>
           </nav>
