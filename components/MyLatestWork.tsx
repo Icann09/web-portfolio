@@ -18,7 +18,7 @@ export default function MyLatestWork() {
       </div>
       <div className="flex justify-center gap-6 max-w-6xl mx-auto flex-col md:flex-row">
         {projects.map((project, idx) => (
-          <div key={idx} className="rounded-lg overflow-hidden shadow-sm px-3">
+          <div key={idx} className="rounded-lg overflow-hidden shadow-sm px-3 transition-colors hover:bg-gray-100">
             <div className="relative group">
               <Image
                 src={project.image}
