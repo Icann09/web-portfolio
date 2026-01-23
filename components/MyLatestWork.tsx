@@ -31,14 +31,23 @@ export default function MyLatestWork() {
               <div className="absolute bottom-4 left-4 right-4 bg-white rounded-md flex justify-between items-center px-4 py-3 shadow-lg">
                 <div>
                   <h4 className="font-semibold text-gray-900">{project.name}</h4>
-                  <p className="text-sm text-gray-500">Visit for LIVE Demo</p>
-                </div>
-                <div
-                  className={`p-2 rounded-full border border-gray-200 group-hover:rotate-45 transition-transform`}
-                >
-                  <Link href={project.url} target="_blank" rel="noopener noreferrer">
-                    <ArrowUpRight className="w-5 h-5 text-black cursor-pointer" />
-                  </Link>
+                  <div className="text-sm">
+                    <Link
+                      href={project.url}
+                      target="_blank"
+                      className="hover:font-bold underline underline-offset-4"
+                    >
+                      Live Demo
+                    </Link>
+                    {" · "}
+                    <Link
+                      href={project.sourceCode}
+                      target="_blank"
+                      className="hover:font-bold underline underline-offset-4"
+                    >
+                      GitHub
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
