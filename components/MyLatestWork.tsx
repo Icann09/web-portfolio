@@ -18,7 +18,7 @@ export default function MyLatestWork() {
       </div>
       <div className="flex justify-center gap-6 max-w-6xl mx-auto flex-col md:flex-row">
         {projects.map((project, idx) => (
-          <div key={idx} className="rounded-lg overflow-hidden shadow-sm px-3 transition-colors hover:bg-gray-100">
+          <div key={idx} className="rounded-lg flex-1/4 overflow-hidden shadow-sm px-3 transition-colors hover:bg-gray-100 ">
             <div className="relative group">
               <Image
                 src={project.image}
@@ -31,7 +31,7 @@ export default function MyLatestWork() {
               <div className="absolute bottom-4 left-4 right-4 bg-white rounded-md flex justify-between items-center px-4 py-3 shadow-lg">
                 <div>
                   <h4 className="font-semibold text-gray-900">{project.name}</h4>
-                  <p className="text-sm text-gray-500">{project.url}</p>
+                  <p className="text-sm text-gray-500">Visit for LIVE Demo</p>
                 </div>
                 <div
                   className={`p-2 rounded-full border border-gray-200 group-hover:rotate-45 transition-transform`}
@@ -43,12 +43,18 @@ export default function MyLatestWork() {
               </div>
             </div>
             <div className="hidden md:flex flex-col">
-              <h3 className="font-semibold mb-2">Tech Stack</h3>
-              <ul className="list-disc list-inside space-y-1">
-                {project.techStack.map((tech, idx) => (
-                  <li key={idx}>{tech}</li>
-                ))}
-              </ul>
+              <div className="rounded-sm border-2 m-2 p-2">
+                <h3 className="font-semibold mb-2">Key Feature</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {project.features}
+                </p>
+              </div>
+              <div className="rounded-sm border-2 m-2 p-2">
+                <h3 className="font-semibold mb-2">Tech Stack</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {project.techStack}
+                </p>
+              </div>
             </div>
           </div>
         ))}

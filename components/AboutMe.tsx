@@ -27,7 +27,7 @@ export default function AboutMe() {
         {/* Right - Content */}
         <div>
           <p className="text-gray-700 mb-8 leading-relaxed">
-          I’m a passionate Full-stack Developer, building my skills through real-world projects and continuous learning. I’ve completed tutorials from JavaScript Mastery and developed my personal portfolio website, and I’m now eager to contribute my skills to a professional team for my first industry experience.
+            I’m a Frontend Developer focused on building modern, user-centric web applications with React and Next.js. Through hands-on projects and continuous self-learning, I’ve developed production-ready interfaces and a personal portfolio that reflects my technical growth and attention to detail. I’m now seeking my first industry role where I can contribute to real products, collaborate with a team, and continue growing as a professional engineer.
           </p>
 
           {/* Info Cards */}

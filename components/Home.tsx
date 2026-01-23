@@ -14,11 +14,11 @@ export default function Home() {
         <p className="text-lg text-gray-700">
           Hi! I’m <span className="font-semibold">Muhammad Kaisan</span> 👋
         </p>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 my-4">
-          frontend web developer <br /> based in Makassar.
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 my-4">
+          Frontend Developer • React & Next.js
         </h1>
         <p className="text-gray-600 max-w-xl mx-auto mb-8">
-          I’m a full-stack web developer from Makassar, Indonesia, passionate about building modern, responsive, and user-friendly applications. 
+          I specialize in building modern, production-ready web applications with React and Next.js (App Router). My work focuses on crafting clean, accessible user interfaces and implementing robust frontend architecture using server components, server actions, and state management. Coming from an engineering background, I bring strong problem-solving skills and a self-driven mindset to every project I build.
         </p>
         <div className="flex gap-4 mt-3 md:mt-1">
           <a
