@@ -17,7 +17,7 @@ export default function MyLatestWork() {
       </div>
       <div className="flex justify-center gap-6 max-w-6xl mx-auto flex-col md:flex-row">
         {projects.map((project, idx) => (
-          <div key={idx} className="rounded-lg flex-1/4 overflow-hidden shadow-sm px-3 transition-colors hover:bg-gray-100 ">
+          <div key={idx} className="rounded-lg flex-1/4 overflow-hidden shadow-sm px-3 transition-transform hover:scale-110 hover:border-2">
             <div className="relative group">
               <Image
                 src={project.image}
@@ -30,7 +30,7 @@ export default function MyLatestWork() {
               <div className="absolute bottom-4 left-4 right-4 bg-white rounded-md flex justify-between items-center px-4 py-3 shadow-lg">
                 <div>
                   <h4 className="font-semibold text-gray-900">{project.name}</h4>
-                  <div className="text-sm">
+                  <div className="text-sm text-black">
                     <Link
                       href={project.url}
                       target="_blank"
