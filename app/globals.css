@@ -151,7 +151,7 @@
   }
 
   .shad-active {
-    @apply text-black font-semibold bg-amber-200 ;
+    @apply font-semibold underline;
   }
   /* Header */
 }

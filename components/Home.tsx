@@ -14,7 +14,7 @@ export default function Home() {
         <p className="text-lg text-gray-700">
           Hi! I’m <span className="font-semibold">Muhammad Kaisan</span> 👋
         </p>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 my-4">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 my-4 dark:text-[#948979]">
           Frontend Developer • React & Next.js
         </h1>
         <p className="text-gray-600 max-w-xl mx-auto mb-8">
@@ -25,11 +25,11 @@ export default function Home() {
             href="http://github.com/Icann09"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-900 transition inline-block"
+            className="bg-black text-white px-6 py-3 rounded-full hover:scale-110 transition inline-block w-[225px]"
           >
             Connect with me
           </a>
-          <button className="border border-gray-400 px-6 py-3 rounded-full hover:bg-gray-100 transition flex items-center gap-2 text-black cursor-pointer">
+          <button className="border border-gray-400 px-6 py-3 rounded-full hover:scale-110 transition flex items-center gap-2 text-black cursor-pointer w-[225px bg-white">
             <a
               href="/resume.pdf"
               target="_blank"

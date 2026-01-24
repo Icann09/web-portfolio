@@ -7,7 +7,7 @@ export default function AboutMe() {
       {/* Title */}
       <div className="text-center mb-12">
         <p className="text-gray-500 text-sm">Introduction</p>
-        <h2 className="text-4xl font-serif text-gray-900">About me</h2>
+        <h2 className="text-4xl font-serif text-gray-900 dark:text-[#948979]">About me</h2>
       </div>
 
       <div className="flex flex-col justify-between md:flex-row gap-12 items-center">
@@ -34,8 +34,8 @@ export default function AboutMe() {
           <div className="grid grid-cols-3 gap-7 mb-8">
             {/* Languages */}
             <div className="border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300 border-gray-200 hover:border-gray-500">
-              <Code className="w-6 h-6 text-gray-800 mb-2" />
-              <h3 className="font-semibold text-gray-900">Languages</h3>
+              <Code className="w-6 h-6 text-gray-800 mb-2 dark:text-white" />
+              <h3 className="font-semibold text-gray-900 dark:text-white">Languages</h3>
               <p className="text-sm text-gray-600">
                 HTML, CSS, JavaScript, TypeScript
               </p>
@@ -43,8 +43,8 @@ export default function AboutMe() {
 
             {/* Education */}
             <div className="border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300 border-gray-200 hover:border-gray-500">
-              <GraduationCap className="w-6 h-6 text-gray-800 mb-2" />
-              <h3 className="font-semibold text-gray-900">Education</h3>
+              <GraduationCap className="w-6 h-6 text-gray-800 mb-2 dark:text-white" />
+              <h3 className="font-semibold text-gray-900 dark:text-white">Education</h3>
               <p className="text-sm text-gray-600">
                 Bachelor Degree in Mechanical Engineering
               </p>
@@ -52,8 +52,8 @@ export default function AboutMe() {
 
             {/* Projects */}
             <div className="border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300 border-gray-200 hover:border-gray-500">
-              <Briefcase className="w-6 h-6 text-gray-800 mb-2" />
-              <h3 className="font-semibold text-gray-900">Projects</h3>
+              <Briefcase className="w-6 h-6 text-gray-800 mb-2 dark:text-white" />
+              <h3 className="font-semibold text-gray-900 dark:text-white">Projects</h3>
               <p className="text-sm text-gray-600">
                 Built more than 5 projects
               </p>
@@ -61,8 +61,8 @@ export default function AboutMe() {
           </div>
 
           {/* Tools */}
-          <p className="text-gray-700 mb-3">Tools I use</p>
-          <div className="flex gap-3 flex-wrap">
+          <p className="text-gray-700 mb-3 dark:text-white">Tools I use</p>
+          <div className="flex gap-3 flex-wrap ">
             {[
               "/assets/icons/better-auth.png",
               "/assets/icons/clerk.svg",
@@ -81,7 +81,7 @@ export default function AboutMe() {
             ].map((icon, index) => (
               <div
                 key={index}
-                className="p-2 border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300"
+                className="p-2 border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300 dark:bg-white hover:scale-150 transition-transform"
               >
                 <Image src={icon} alt="Tool" width={32} height={32} />
               </div>

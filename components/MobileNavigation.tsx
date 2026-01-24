@@ -13,6 +13,7 @@ import { navItems } from "@/constants";
 import { Separator } from "./ui/separator";
 import { cn } from "@/lib/utils";
 import { useEffect } from "react";
+import { ThemeTogle } from "./ThemeTogle";
 
 export default function MobileNavigation() {
   const [open, setOpen] = useState(false);
@@ -58,17 +59,17 @@ export default function MobileNavigation() {
 
   return (
     <header className="mobile-header">
-      <div className="text-2xl font-bold text-black">
+      <div className="text-2xl font-bold text-black dark:text-[#948979]">
         Kaisan<span className="text-pink-800">.</span>
       </div>
       <Sheet open={open} onOpenChange={setOpen}>
-        <SheetTrigger>
+        <SheetTrigger className="dark:text-white">
           <Image src="/assets/icons/menu.svg" alt="menu" width={30} height={30}/>
         </SheetTrigger>
         <SheetContent className="shad-sheet h-screen px-3 md:hidden">
           <SheetTitle>
-            <div className="text-2xl font-bold text-black pt-4">
-              Kaisan<span className="text-pink-800">.</span>
+            <div className="flex items-center py-2">
+              <ThemeTogle />
             </div>
             <Separator className="mb-4 bg-black"/>
           </SheetTitle>
@@ -100,7 +101,7 @@ export default function MobileNavigation() {
               href="https://www.linkedin.com/in/muhammad-kaisan-35a103211"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full px-8 py-2 bg-black text-white"
+              className="rounded-full px-8 py-2 bg-black text-white dark:bg-white dark:text-black"
             >
               Connect ↗
             </a>

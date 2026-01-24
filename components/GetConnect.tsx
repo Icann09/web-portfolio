@@ -39,7 +39,7 @@ export default function GetConnect() {
     >
       {/* Heading */}
       <p className="text-gray-600 text-sm mb-2">Connect with me</p>
-      <h2 className="text-4xl font-serif font-bold text-gray-900 mb-4">
+      <h2 className="text-4xl font-serif font-bold text-gray-900 mb-4 dark:text-[#948979]">
         Get in touch
       </h2>
       <p className="text-gray-500 max-w-xl text-center mb-10">

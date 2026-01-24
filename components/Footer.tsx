@@ -6,8 +6,8 @@ export default function Footer() {
     <footer className="mt-20 max-w-7xl justify-center flex flex-col mx-auto">
       {/* Logo + Email */}
       <div className="flex flex-col items-center">
-        <h1 className="text-3xl font-bold">
-          Kaisan<span className="text-pink-500">.</span>
+        <h1 className="text-3xl font-bold dark:text-[#948979]">
+          Kaisan<span className="text-pink-800">.</span>
         </h1>
         <div className="flex items-center space-x-2 mt-2 text-gray-600">
           <Mail className="w-6 h-6" />

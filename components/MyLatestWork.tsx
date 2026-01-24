@@ -1,5 +1,4 @@
 
-import { ArrowUpRight } from "lucide-react";
 import { projects } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,7 +10,7 @@ export default function MyLatestWork() {
     <section className="min-h-[calc(100vh-4rem)] flex-col flex justify-center" id="my-work">
       <div className="text-center max-w-3xl mx-auto mb-12">
         <p className="text-gray-500 mb-2">My Portfolio</p>
-        <h2 className="text-4xl font-bold text-gray-900 my-3">My latest work</h2>
+        <h2 className="text-4xl font-bold text-gray-900 my-3 dark:text-[#948979]">My latest work</h2>
         <p className="text-gray-600 my-7">
           Welcome to my web development portfolio! Here, you’ll find a collection of projects that highlight my skills in front-end development and seamless backend integration.
         </p>
@@ -73,7 +72,7 @@ export default function MyLatestWork() {
       </div>
       </div>
       <div className="text-center  mt-6 md:mt-16  mb-1 md:mb-10 lg:mb-12 ">
-        <button className="px-6 py-3 rounded-full border border-gray-300 hover:border-gray-500 text-gray-700 hover:text-gray-900 transition cursor-pointer">
+        <button className="px-6 py-3 rounded-full border border-gray-300 hover:border-gray-500 text-gray-700 hover:text-gray-900 transition cursor-pointer bg-white">
           Show more →
         </button>
       </div>
