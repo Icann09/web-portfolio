@@ -31,7 +31,7 @@ export default function Home() {
           </a>
           <button className="border border-gray-400 px-6 py-3 rounded-full hover:scale-110 transition flex items-center gap-2 text-black cursor-pointer w-[225px bg-white">
             <a
-              href="/resume.pdf"
+              href="/resume_muhammad_kaisan.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
