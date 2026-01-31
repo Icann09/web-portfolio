@@ -20,7 +20,7 @@ export default function Home() {
         <p className="text-gray-600 max-w-xl mx-auto mb-8">
           I specialize in building modern, production-ready web applications with React and Next.js (App Router). My work focuses on crafting clean, accessible user interfaces and implementing robust frontend architecture using server components, server actions, and state management. Coming from an engineering background, I bring strong problem-solving skills and a self-driven mindset to every project I build.
         </p>
-        <div className="flex gap-4 mt-3 md:mt-1">
+        <div className="flex flex-col gap-4 mt-3 md:mt-1 md:flex-row">
           <a
             href="http://github.com/Icann09"
             target="_blank"

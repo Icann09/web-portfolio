@@ -44,6 +44,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Muhammad Kaisan Farasdag | Front-End Developer Portfolio",
+    description: "Explore my portfolio showcasing React, Next.js, and full-stack projects.",
+    images: ["https://my-library.vercel.app/og-image.png"],
+  },
 };
 
 
