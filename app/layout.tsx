@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Kaisan Portfolio",
     images: [
       {
-        url: "/web-page.png",
+        url: "https://web-portfolio-five-inky.vercel.app/web-page.png",
         width: 1200,
         height: 630,
         alt: "Kaisan Portfolio Preview",
