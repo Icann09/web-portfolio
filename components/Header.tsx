@@ -34,7 +34,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="hidden sm:flex items-center justify-between gap-5 h-16 xl:gap-10">
+    <header className="hidden md:flex items-center justify-between gap-5 h-16 xl:gap-10">
       <nav className="top-6 flex items-center justify-between w-full max-w-6xl mx-auto px-5">
         <div className="text-2xl font-bold text-black dark:text-[#948979]">
           Kaisan<span className="text-pink-800">.</span>
