@@ -39,7 +39,7 @@ export default function Header() {
         <div className="text-2xl font-bold text-black dark:text-[#948979]">
           Kaisan<span className="text-pink-800">.</span>
         </div>
-        <ul className="flex items-center space-x-4 md:space-x-8 text-sm lg:text-lg text-gray-700  px-2 md:px-6 py-2">
+        <ul className="flex items-center space-x-1 lg:space-x-6 text-sm lg:text-lg text-gray-700  px-2 md:px-6 py-2">
           {navItems.map((link) => (
             <li key={link.id}>
               <a
