@@ -45,16 +45,19 @@ export default function Header() {
               <a
                 href={`#${link.id}`}
                 aria-current={activeId === link.id ? "true" : undefined}
-                className={`
-                  px-3 py-1 rounded-full
-                  dark:text-white
-                  transition-all duration-300 ease-in-out
-                  ${
-                    activeId === link.id
-                      ? "text-black font-semibold underline underline-offset-4"
-                      : "text-gray-700 hover:text-black"
-                  }
-                `}
+                 className={`
+                    relative px-3 py-1
+                    transition-colors duration-300
+                    after:absolute after:left-0 after:-bottom-1
+                    after:h-[2px] after:w-full after:bg-black dark:after:bg-white
+                    after:scale-x-0 after:origin-left
+                    after:transition-transform after:duration-300
+                    ${
+                      activeId === link.id
+                        ? "after:scale-x-100 text-black dark:text-white font-semibold"
+                        : "after:scale-x-0 text-gray-500  hover:text-black dark:hover:text-white"
+                    }
+                  `}
               >
                 {link.name}
               </a>

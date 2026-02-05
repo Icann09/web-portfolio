@@ -1,16 +1,35 @@
+"use client"
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <section id="home" className="relative min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center text-center  px-6">
       <div className="flex flex-col items-center justify-center">
-        <Image
-          src="/assets/images/profile.jpeg" // Replace with your profile image path
-          alt="Profile"
-          width={140}
-          height={140}
-          className="rounded-full mb-10 w-32 h-32 sm:w-[140px] sm:h-[140px]  lg:w-[180px] lg:h-[180px] object-cover"
-        />
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="mb-10"
+        >
+          <motion.div
+            animate={{ y: [0, -10, 0] }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+          >
+            <Image
+              src="/assets/images/profile.jpeg"
+              alt="Profile"
+              width={140}
+              height={140}
+              className="rounded-full w-32 h-32 sm:w-[140px] sm:h-[140px] lg:w-[250px] lg:h-[250px] object-cover shadow-lg shadow-black dark:shadow-white"
+            />
+          </motion.div>
+        </motion.div>
         <p className="text-lg text-gray-700">
           Hi! I’m <span className="font-semibold">Muhammad Kaisan</span> 👋
         </p>
